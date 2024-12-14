@@ -1,0 +1,192 @@
+<!--Derek Carlos - Final Project-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Derek Carlos' Website</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <!--Resume Page-->
+    <div>
+        <h1 id="ResumeTitle">Resume</h1>
+        <h2 id="name">Derek Carlos</h2>
+        <img src="me.jpg" alt="profile picture" id="pfp">
+        <p id="objective">Motivated student with excellent communication and
+            interpersonal skills looking to gain valuable experience in a
+            professional setting.</p>
+        <hr id="objSkillSplit">
+
+        <table id="resumeTable">
+            <tr>
+                <td><h3 id="skillTitle">Skills</h3></td>
+                <td>
+                    <ul id="skillList">
+                        <li>Detail-oriented</li>
+                        <br>
+                        <li>Adaptable</li>
+                        <br>
+                        <li>Can manage time efficiently</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td><h3 id="expTitle">Experience</h3></td>
+                <td>
+                    <ul>
+                        <li id="job1">Habitat for Humanity / ReStore Volunteer</li>
+                        <ul>
+                            <li id="exp1">Organize stock to look presentable</li>
+                            <li id="exp2">Replace price tags</li>
+                            <li id="exp3">Move furniture</li>
+                        </ul>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td> <h3 id="eduTitle">Education</h3></td>
+                <td>
+                    <ul>
+                        <li id="firstEdu">St. Brother André Catholic High School <br>(2018 - 2022)</li>
+                        <br>
+                        <li>University of Calgary (2022 - 2024)</li>
+                        <br>
+                        <li>Bow Valley College (2024 - present)</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+
+        <hr>
+    </div>
+
+    <!--Hobbies/interests Page-->
+    <div>
+        <h1 id="hobbyTitle">Hobbies/Interests</h1>
+        <h3 id="drawTitle">I like to draw things</h3>
+        <button type="button" id="backButtonDraw"><</button>
+        <button type="button" id="forwardButtonDraw">></button>
+        <img src="draw1.jpg" alt="drawing" id="drawingImage">
+        <br>
+        <br>
+        <h3 id="gameTitle">I also like to play games</h3>
+        <button type="button" id="backButtonGame"><</button>
+        <button type="button" id="forwardButtonGame">></button>
+        <img src="game1.png" alt="game Image" id="gameImage">
+
+        <hr>
+    </div>
+
+    <!--Cheatsheeet Page-->
+    <div>
+        <h1 id="cheatSheetTitle">CSS Cheatsheet</h1>
+
+        <table id="cheetSheetTable" class="csTable">
+            <tr class="csTable">
+                <td class="csTable"><b>Keyword</b></td>
+                <td class="csTable"><b>Before</b></td>
+                <td class="csTable"><b>After</b></td>
+                </tr>
+            <tr class="csTable">
+                <td class="csTable"><b>background-color:</b> <br> 
+                    turns the background of a text into a different colour</td>
+                <td class="csTable">Text</td>
+                <td id="bgColor" class="csTable">Text</td>
+                </tr>
+            <tr class="csTable">
+                <td class="csTable"><b>color:</b> <br> 
+                    turns the colour of a text into a different colour</td>
+                <td class="csTable">Text</td>
+                <td id="colorEx" class="csTable">Text</td>
+                </tr>
+            <tr class="csTable">
+                <td class="csTable"><b>font-family:</b> <br> 
+                    turns the font of a text into a different font</td>
+                <td class="csTable">Text</td>
+                <td id="fontEx" class="csTable">Text</td>
+                </tr>
+            <tr class="csTable">
+                <td class="csTable"><b>float:</b> <br> 
+                    changes the alignment of the text</td>
+                <td class="csTable">Text</td>
+                <td id="floatEx" class="csTable">Text</td>
+                </tr>
+            <tr class="csTable">
+                <td class="csTable"><b>border:</b> <br> 
+                    sets the border size, color, and type of border on the text</td>
+                <td class="csTable">Text</td>
+                <td id="borderEx" class="csTable">Text</td>
+                </tr>
+            <tr class="csTable">
+                <td class="csTable"><b>border-radius:</b> <br> 
+                    sets the border's corners to a set amount of roundness</td>
+                <td class="csTable">Text</td>
+                <td id="cornerEx" class="csTable">Text</td>
+                </tr>
+            <tr class="csTable">
+                <td class="csTable"><b>background-image:</b> <br> 
+                    sets the background of the text to an image instead of a solid colour</td>
+                <td class="csTable">Text</td>
+                <td id="imgBgEx" class="csTable">Text</td>
+                </tr>
+            <tr class="csTable">
+                <td class="csTable"><b>letter-spacing:</b> <br> 
+                    sets the distance between each character</td>
+                <td class="csTable">Text</td>
+                <td id="distEx" class="csTable">Text</td>
+                </tr>
+            <tr class="csTable">
+                <td class="csTable"><b>text-decoration:</b> <br> 
+                    adds decoration to text such as underline or overline</td>
+                <td class="csTable">Text</td>
+                <td id="decoEx" class="csTable">Text</td>
+                </tr>
+            <tr class="csTable">
+                <td class="csTable"><b>font-weight:</b> <br> 
+                    adds weight to text</td>
+                <td class="csTable">Text</td>
+                <td id="weightEx" class="csTable">Text</td>
+                </tr>
+            <tr class="csTable">
+                <td class="csTable"><b>font-size:</b> <br> 
+                    changes font size of text</td>
+                <td class="csTable">Text</td>
+                <td id="sizeEx" class="csTable">Text</td>
+                </tr>
+            <tr class="csTable">
+                <td class="csTable"><b>font-variant:</b> <br> 
+                    changes font variant of text</td>
+                <td class="csTable">Text</td>
+                <td id="variantEx" class="csTable">Text</td>
+                </tr>
+            <tr class="csTable">
+                <td class="csTable"><b>line-height:</b> <br> 
+                    changes font variant of text</td>
+                <td class="csTable">Text <br>Text </td>
+                <td id="heightEx" class="csTable">Text <br>Text</td>
+                </tr>
+            <tr class="csTable">
+                <td class="csTable"><b>width:</b> <br> 
+                    changes the width of the element</td>
+                <td class="csTable" id="widthDefault">Text</td>
+                <td id="widthEx" class="csTable">Text</td>
+                </tr>
+            <tr class="csTable">
+                <td class="csTable"><b>height:</b> <br> 
+                    changes the height of the element</td>
+                <td class="csTable" id="heightDefault">Text</td>
+                <td id="heightEx" class="csTable">Text</td>
+                </tr>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

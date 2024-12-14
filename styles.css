@@ -1,0 +1,276 @@
+/*Derek Carlos - Final Project*/
+
+:root {
+    --leftRightMargin: 20vw;
+    --topBottomMargin: 2vh;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FEFAE0;
+    font-family: 'Noto', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: #BC6C25;
+}
+
+/*Start of Resume section*/
+#ResumeTitle {
+    margin-top: var(--topBottomMargin);
+}
+
+#name {
+    color: #BC6C25;
+    display: inline-block;
+    margin-top: calc(var(--topBottomMargin) + 8vh);
+    margin-left: var(--leftRightMargin);
+}
+
+#pfp {
+    width: 225px;
+    height: 285px;
+    border-radius: 8px;
+    float: right;
+    margin-top: var(--topBottomMargin) ;
+    margin-right: calc(var(--leftRightMargin) + 7vw);
+}
+
+#objective {
+    color: #BC6C25;
+    margin-top: calc(var(--topBottomMargin) + 1vh);
+    margin-left: var(--leftRightMargin);
+}
+
+#objSkillSplit {
+    margin-top: calc(var(--topBottomMargin) + 8vh);
+    width: 250px;
+    float: right;
+    display: none;
+}
+
+#resumeTable {
+    margin-top: calc(var(--topBottomMargin) + 8vh);
+    margin-left: var(--leftRightMargin);
+    margin-bottom: 3vh;
+    padding: 20px;
+}
+
+
+#skillTitle {
+    color: #BC6C25;
+    margin-right: calc(var(--leftRightMargin) + 18vw);
+}
+
+li{
+    color: #BC6C25;  
+}
+
+#expTitle {
+    color: #BC6C25; 
+    margin-top: 2vh;
+    margin-right: var(--leftRightMargin);
+}
+
+#job1 {
+    margin-top: 3vh;
+}
+
+#exp1 {
+    margin-left: 1vw;
+}
+
+#exp2 {
+    margin-left: 1vw;
+}
+
+#exp3 {
+    margin-left: 1vw;
+}
+
+#eduTitle {
+    color: #BC6C25; 
+    margin-top: 4vh;
+    margin-right: var(--leftRightMargin);
+}
+
+#firstEdu {
+    margin-top: 3vh;
+}
+
+hr {
+    background-color: #BC6C25;
+    height: 5px;
+    width: 80vw;
+    margin: auto;
+    margin-top: 20px;
+}
+
+/*Start of hobby/interests section*/
+#hobbyTitle {
+    margin-top: var(--topBottomMargin);
+    margin-bottom: calc(var(--topBottomMargin) + 2vh);
+}
+
+#drawTitle {
+    color: #BC6C25; 
+    margin-top: var(--topBottomMargin);
+    margin-bottom: 1vh;
+    text-align: center;
+}
+
+button {
+    background-color: #BC6C25;
+    color: #FEFAE0;
+    border: none;
+    padding: 10px 20px 10px 20px;
+}
+
+#backButtonDraw {
+    display: inline;
+    margin-left: 46vw;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+#forwardButtonDraw {
+    display: inline;
+    margin-left: 3vw;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+#drawingImage {
+    display: flex;
+    margin-left: 35vw;
+}
+
+#gameTitle {
+    color: #BC6C25; 
+    margin-top: var(--topBottomMargin);
+    margin-bottom: var(--topBottomMargin);
+    text-align: center;
+}
+
+#backButtonGame {
+    display: inline;
+    margin-left: 46vw;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+#forwardButtonGame {
+    display: inline;
+    margin-left: 3vw;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+#gameImage {
+    margin-left: 35vw;
+    margin-bottom: var(--topBottomMargin);
+}
+
+/*Start of cheetsheet*/
+#cheatSheetTitle {
+    color: #BC6C25; 
+    margin-top: var(--topBottomMargin);
+    margin-bottom: var(--topBottomMargin);
+    text-align: center;
+}
+
+#cheetSheetTable {
+    margin-top: calc(var(--topBottomMargin) + 8vh);
+    margin-left: calc(var(--leftRightMargin) + 15vw);
+    margin-bottom: 3vh;
+    padding: 20px;
+    text-align: center;
+    color: #BC6C25;
+}
+
+.csTable {
+    padding: 20px;
+}
+
+#bgColor {
+    color: #FEFAE0;
+    background-color: #606C38;
+}
+
+#colorEx {
+    color: #283618;
+}
+
+#fontEx {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#floatEx {
+    float: right;
+}
+
+#borderEx {
+    border: 3px dashed #283618;
+}
+
+#cornerEx {
+    background-color: #BC6C25;
+    color: #FEFAE0;
+    border-radius: 20px;
+}
+
+#imgBgEx {
+    background-image: url("draw2.jpg");
+    color: #FEFAE0;
+}
+
+#distEx {
+    letter-spacing: 3px;
+}
+
+#decoEx {
+    text-decoration: underline;
+}
+
+#weightEx {
+    font-weight: 750;
+}
+
+#sizeEx {
+    font-size: x-large;
+}
+
+#variantEx {
+    font-variant:small-caps;
+}
+
+#heightEx {
+    line-height: 2vh;
+}
+
+#widthDefault {
+    color: #FEFAE0;
+    background-color: #BC6C25;
+}
+
+#widthEx {
+    width: 5vw;
+    color: #FEFAE0;
+    background-color: #606C38;
+}
+
+#heightDefault {
+    color: #FEFAE0;
+    background-color: #606C38;
+}
+
+#heightEx {
+    height: 5vh;
+    color: #FEFAE0;
+    background-color: #BC6C25;
+}
